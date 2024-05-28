@@ -36,7 +36,7 @@ pong_game/
 
 3. Control the game using the CLI tool:
 
-    ```bash
+    ```
     # Start the game with a 1-second interval between pings
     python cli/pong_cli.py start 1000
 
@@ -49,7 +49,20 @@ pong_game/
     # Stop the game
     python cli/pong_cli.py stop
     ```
+## Bash Script
+```
+#Make the Script Executable
+chmod +x pong_cli.sh
 
+./pong_cli.sh start 1000
+
+./pong_cli.sh pause
+
+./pong_cli.sh resume
+
+./pong_cli.sh stop
+
+```
 ## .gitignore
 
 Add the `.gitignore` file to exclude unnecessary files from version control:
